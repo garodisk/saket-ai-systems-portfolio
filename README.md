@@ -1,16 +1,84 @@
-# React + Vite
+# Saket Garodia — AI Systems Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio and interactive showcase of the AI systems I build across agentic AI, retrieval, production machine learning, optimization, and MLOps.
 
-Currently, two official plugins are available:
+The site is designed as an interactive technical portfolio rather than a traditional resume page — using architecture visualizations, system telemetry, and scroll-based storytelling to explain how AI systems move from an idea to production.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Site
 
-## React Compiler
+**Coming soon:** [saketgarodia.com](https://saketgarodia.com)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Systems
 
-## Expanding the Oxlint configuration
+The portfolio highlights projects across several areas of modern AI engineering:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Agentic AI
+
+- **Coder Buddy** — LangGraph-based multi-agent coding assistant
+- **Multi-Agent Research Assistant** — clarification, research, validation, and synthesis workflow
+- **Saket's Data Agent** — natural-language router for specialized SQL and ETL agents
+- **TripMate AI** — stateful multi-agent travel planning system
+
+### Retrieval & Memory
+
+- **Hybrid RAG Search System** — semantic + BM25 retrieval with reciprocal-rank fusion
+- **Temporal Knowledge-Graph Memory** — Graphiti + Neo4j memory with evolving temporal relationships
+
+### Production AI / ML
+
+The portfolio also showcases work across:
+
+- production machine learning
+- pricing and optimization
+- MLOps
+- model monitoring
+- LLM evaluation
+- AI governance
+- deployment and reliability
+
+## Design Philosophy
+
+The portfolio is built around a simple idea:
+
+> AI is more than the model. Production AI depends on the system around it.
+
+The visual narrative follows three recurring stages:
+
+**BUILD → MEASURE → HARDEN**
+
+- **Build** — turn an ambiguous problem into a working AI system
+- **Measure** — evaluate quality, latency, reliability, and business outcomes
+- **Harden** — add security, guardrails, governance, observability, and production controls
+
+## Tech Stack
+
+- React 19
+- Vite
+- Tailwind CSS
+- GSAP
+- GSAP ScrollTrigger
+- Lucide React
+
+## Project Structure
+
+```text
+.
+├── public/
+│   └── images/
+├── src/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── Impact.jsx
+│   │   ├── SelectedSystems.jsx
+│   │   ├── Philosophy.jsx
+│   │   ├── SystemProcess.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Capabilities.jsx
+│   │   ├── Writing.jsx
+│   │   └── AboutContact.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
